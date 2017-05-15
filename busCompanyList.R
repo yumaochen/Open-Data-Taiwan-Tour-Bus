@@ -55,7 +55,7 @@ for(kk in 1:94){
   
 }
 
-mylist[c(95:100),]=''
+mylist = mylist[-c(95:100),]
 
 names(mylist) = c('number', 'name', 'city', 'district', 'address', 'phone', 'status')
 
